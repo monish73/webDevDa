@@ -225,23 +225,23 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form class="contact-form" action="#" method="POST">
+                    <form class="contact-form" action="https://formspree.io/f/mdovzqvr" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" class="fullname" placeholder="Name">
+                                <input type="text" class="fullname" placeholder="Name" name="name">
                             </div>
                             <div class="field email">
-                                <input type="text" class="email-input" placeholder="Email">
+                                <input type="text" class="email-input" placeholder="Email" name="email">
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" class="subject" placeholder="Subject">
+                            <input type="text" class="subject" placeholder="Subject" name="subject">
                         </div>
                         <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                            <textarea class="message" cols="30" rows="10" placeholder="Message.." name="message"></textarea>
                         </div>
                         <div class="button-area">
-                            <button class="send-msg" type="submit" name="send">Send message</button>
+                            <button class="send-msg" type="submit" name="send" id="my-form-status">Send message</button>
                         </div>
                     </form>
                 </div>
